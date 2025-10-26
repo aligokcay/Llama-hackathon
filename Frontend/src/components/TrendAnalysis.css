@@ -1,0 +1,180 @@
+.trend-analysis {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+.analysis-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.analysis-header h2 {
+  font-size: 2rem;
+  color: #1B1E27;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.analysis-header p {
+  font-size: 1.1rem;
+  color: #6B7280;
+  margin: 0;
+}
+
+.analysis-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.analyze-btn {
+  background: linear-gradient(135deg, #4B6FFF, #764ba2);
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.analyze-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #3B5BFF, #6a4190);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(75, 111, 255, 0.4);
+}
+
+.analyze-btn:disabled {
+  background: #A0AEC0;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.error-message {
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.error-message h3 {
+  color: #DC2626;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.error-message p {
+  color: #7F1D1D;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.analysis-result {
+  background: #F0F9FF;
+  border: 1px solid #BAE6FD;
+  border-radius: 8px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.analysis-result h3 {
+  color: #1E40AF;
+  margin: 0 0 15px 0;
+  font-size: 1.3rem;
+}
+
+.advice-content {
+  background: white;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #4B6FFF;
+}
+
+.advice-content p {
+  color: #1B1E27;
+  line-height: 1.8;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.analysis-details {
+  background: #F8FAFC;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.analysis-details h4 {
+  color: #374151;
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.analysis-details p {
+  color: #6B7280;
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.technical-report {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.technical-report summary {
+  color: #374151;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.technical-report pre {
+  background: #1F2937;
+  color: #F9FAFB;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  .trend-analysis {
+    padding: 20px;
+  }
+  
+  .analysis-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .analysis-header p {
+    font-size: 1rem;
+  }
+  
+  .analyze-btn {
+    padding: 14px 24px;
+    font-size: 1rem;
+  }
+  
+  .analysis-result {
+    padding: 20px;
+  }
+  
+  .advice-content {
+    padding: 15px;
+  }
+}

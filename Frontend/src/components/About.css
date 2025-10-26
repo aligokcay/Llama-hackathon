@@ -1,0 +1,166 @@
+.about-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
+  padding: 120px 0 80px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 80px;
+  color: #1e293b;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #1e293b, #475569);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #475569;
+}
+
+.about-content {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 60px 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.vision-mission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.vision, .mission {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.vision:hover, .mission:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.vision h2, .mission h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.vision p, .mission p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #475569;
+  text-align: center;
+}
+
+.about-tagline {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-tagline h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #1e293b;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.about-cta {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #4B6FFF, #764ba2);
+  color: white;
+  padding: 18px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 25px rgba(75, 111, 255, 0.4);
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(75, 111, 255, 0.6);
+  background: linear-gradient(135deg, #3B5BFF, #6a4190);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 100px 0 60px;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+  }
+  
+  .about-content {
+    padding: 40px 20px;
+  }
+  
+  .vision-mission {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .vision, .mission {
+    padding: 30px 20px;
+  }
+  
+  .vision h2, .mission h2 {
+    font-size: 1.5rem;
+  }
+  
+  .vision p, .mission p {
+    font-size: 1rem;
+  }
+  
+  .about-tagline h3 {
+    font-size: 2rem;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+  }
+}
