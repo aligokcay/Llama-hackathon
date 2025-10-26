@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+gunicorn
+httpx
+pandas
+azure-storage-blob
+python-dotenv
+python-multipart
+Flask
+flask_cors
