@@ -106,7 +106,7 @@ Yanıt:
 | Endpoint            | Metot  | Model                                  | Açıklama 
 |-----------          |--------|---------                               |-------------
 | `/generate-image`   | POST   | FLUX.1-Kontext-pro                     | Görselden yeni görsel üretir 
-| `/generate-video`   | POST   | FLUX.1-Kontext-pro                     | Görselden video üretir 
+| `/generate-video`   | POST   | WAN2.2                                 | Görselden video üretir 
 | `/analyze-caption`  | POST   | Llama-4-Maverick-17B-128E-Instruct-FP8 | Görsel caption ve etkileşim analizini yapar 
 | `/status/<id>`      | GET    | -                                      | Görev durumunu sorgular
 
